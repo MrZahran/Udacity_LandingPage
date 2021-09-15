@@ -1,13 +1,10 @@
-# Landing Page Project
+# Udacity_LandingPage (First Project)
 
-## Table of Contents
+## What's Done
 
-* [Instructions](#instructions)
+I tried to apply what I learned in the lessons in the first project and I will always try to develop the code
 
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+1. I added a new section in a HTML file
+2. I built the code to generate the navigation items dynamically
+3. I have applied the active state on scroll to the sections.
+4. I'm following the udacity javaScript style guide.
