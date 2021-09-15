@@ -46,15 +46,10 @@ allLi.forEach((ele) => {
 
 /* Adding Active Style On Scroll */
 window.addEventListener("scroll", () => {
-  console.log(sections[0].getBoundingClientRect().top)
-  console.log(sections[1].getBoundingClientRect().top)
   sections.forEach((element) => {
-    
     let sectionTop = element.getBoundingClientRect().top;
     let windowHeight = window.innerHeight / 2;
-    console.log(windowHeight)
     if (sectionTop < windowHeight && sectionTop > -windowHeight + 200) {
-
       element.classList.add("your-active-class");
       // Add Style To Li On Scroll
       for (let i = 0; i < allLi.length; i++) {
